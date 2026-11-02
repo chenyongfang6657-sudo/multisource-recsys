@@ -1,0 +1,30 @@
+{
+  "raw": "data\\raw",
+  "tmdb": "data\\external\\tmdb_metadata.csv",
+  "out": "results",
+  "keep": [
+    1.0,
+    0.5,
+    0.2,
+    0.1
+  ],
+  "missing": [
+    0.0,
+    0.3,
+    0.6,
+    0.9
+  ],
+  "missing_keep": 0.2,
+  "lambdas": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "lam": 0.5,
+  "k": 50,
+  "n": 10,
+  "test_ratio": 0.2,
+  "seeds": 3
+}

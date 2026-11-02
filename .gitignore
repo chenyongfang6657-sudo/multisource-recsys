@@ -1,0 +1,10 @@
+# 按照 MovieLens 和 TMDB 的使用条款，数据不上传到仓库
+data/
+results_synthetic/
+
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+.idea/
+.env
